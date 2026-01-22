@@ -37,6 +37,7 @@ function App() {
           href="https://github.com/amedeomajer/frontend-best-practices-demo"
           target="_blank"
           rel="noopener noreferrer"
+          id="link-to-gh-repo"
         >
           View on GitHub
         </a>

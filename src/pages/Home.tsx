@@ -70,12 +70,6 @@ export default function Home() {
           </li>
         </ul>
       </section>
-
-      <footer className="home-footer">
-        <p>
-          Based on the presentation by Amedeo Majer for Hive Helsinki students visiting Wolt.
-        </p>
-      </footer>
     </div>
   )
 }

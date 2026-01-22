@@ -32,7 +32,7 @@
 
 .site-footer a {
   color: var(--text-secondary);
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 0.875rem;
 }
 

@@ -61,7 +61,6 @@ p {
 
 a {
   color: var(--wolt-blue);
-  text-decoration: none;
 }
 
 a:hover {
