@@ -31,6 +31,15 @@ function App() {
           <Route path="/testing" element={<TestingPage />} />
         </Routes>
       </main>
+      <footer className="site-footer">
+        <a
+          href="https://github.com/amedeomajer/frontend-best-practices-demo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+      </footer>
     </>
   )
 }
