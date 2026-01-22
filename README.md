@@ -2,9 +2,9 @@
 
 An interactive React app demonstrating good vs bad frontend practices.
 
-**Live Demo:** https://amedeomajer.github.io/
+**Live Demo:** https://amedeomajer.github.io/frontend-best-practices-demo/
 
-**Cheatsheet:** [Download PDF](https://amedeomajer.github.io/cheatsheet.pdf)
+**Cheatsheet:** [Download PDF](https://amedeomajer.github.io/frontend-best-practices-demo/cheatsheet.pdf)
 
 ## Tech Stack
 
