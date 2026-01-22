@@ -24,7 +24,6 @@ export default function SeparationPage() {
               <li>No business rules</li>
             </ul>
           </div>
-          <div className="arch-arrow">→</div>
           <div className="arch-box pure-box">
             <h3>Pure Functions</h3>
             <p>Calculations & decisions</p>
@@ -35,7 +34,6 @@ export default function SeparationPage() {
               <li>Contains business logic</li>
             </ul>
           </div>
-          <div className="arch-arrow">→</div>
           <div className="arch-box service-box">
             <h3>Service</h3>
             <p>External communication</p>

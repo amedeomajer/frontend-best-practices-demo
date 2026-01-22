@@ -39,8 +39,8 @@
   border-radius: 12px;
   padding: 1.5rem;
   flex: 1;
-  min-width: 200px;
-  max-width: 280px;
+  min-width: 240px;
+  max-width: 300px;
   border: 2px solid var(--border-color);
 }
 
@@ -93,13 +93,6 @@
 
 .service-box h3 {
   color: #8b5cf6;
-}
-
-.arch-arrow {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {
