@@ -33,7 +33,8 @@
 }
 
 .navbar-links a:hover {
-  background: var(--bg-secondary);
+  background: var(--wolt-blue);
+  color: var(--bg-primary);
   text-decoration: none;
 }
 
