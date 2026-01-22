@@ -32,15 +32,28 @@ function App() {
         </Routes>
       </main>
       <footer className="site-footer">
-        <p>Based on the presentation by Amedeo Majer for Hive Helsinki students visiting Wolt.</p>
-        <a
-          href="https://github.com/amedeomajer/frontend-best-practices-demo"
-          target="_blank"
-          rel="noopener noreferrer"
-          id="link-to-gh-repo"
-        >
-          View on GitHub
-        </a>
+        <div className="footer-links">
+          <a
+            href={`${import.meta.env.BASE_URL}cheatsheet.pdf`}
+            download
+            className="footer-link"
+          >
+            <span className="footer-link-icon">📄</span>
+            Download Cheatsheet
+          </a>
+          <a
+            href="https://github.com/amedeomajer/frontend-best-practices-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <span className="footer-link-icon">💻</span>
+            View on GitHub
+          </a>
+        </div>
+        <p className="footer-credit">
+          Based on a presentation by Amedeo Majer for Hive Helsinki students visiting Wolt
+        </p>
       </footer>
     </>
   )

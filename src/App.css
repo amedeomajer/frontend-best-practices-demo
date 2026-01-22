@@ -25,17 +25,42 @@
   background: var(--bg-card);
 }
 
-.site-footer p {
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
-.site-footer a {
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.footer-link:hover {
+  background: var(--wolt-blue);
+  border-color: var(--wolt-blue);
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link-icon {
+  font-size: 1.1rem;
+}
+
+.footer-credit {
+  font-size: 0.8rem;
   color: var(--text-secondary);
-  text-decoration: underline;
-  font-size: 0.875rem;
-}
-
-.site-footer a:hover {
-  color: var(--wolt-blue);
+  margin: 0;
 }
