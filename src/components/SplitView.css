@@ -1,0 +1,94 @@
+.split-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+}
+
+@media (max-width: 768px) {
+  .split-view {
+    grid-template-columns: 1fr;
+  }
+}
+
+.split-panel {
+  background: var(--bg-card);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.panel-header {
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.panel-header.bad {
+  background: transparent;
+  border-bottom: 3px solid var(--bad-color);
+}
+
+.panel-header.good {
+  background: transparent;
+  border-bottom: 3px solid var(--good-color);
+}
+
+.panel-label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bad .panel-label {
+  color: var(--bad-color);
+}
+
+.good .panel-label {
+  color: var(--good-color);
+}
+
+.panel-title {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.panel-content {
+  padding: 1.5rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.panel-points {
+  padding: 1rem 1.5rem 1.5rem;
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid var(--border-color);
+}
+
+.panel-points li {
+  padding: 0.25rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.panel-points li::before {
+  content: "•";
+  margin-right: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.bad-panel .panel-points li::before {
+  color: var(--bad-color);
+}
+
+.good-panel .panel-points li::before {
+  color: var(--good-color);
+}

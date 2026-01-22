@@ -1,0 +1,205 @@
+.accessibility-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Screen reader preface */
+.screen-reader-preface {
+  background: var(--bg-card);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border: 2px solid var(--wolt-blue);
+}
+
+.screen-reader-preface h2 {
+  margin-bottom: 0.5rem;
+  color: var(--wolt-blue);
+}
+
+.screen-reader-preface > p {
+  margin-bottom: 1.5rem;
+}
+
+.screen-readers-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.sr-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+.sr-item strong {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+.sr-item span {
+  font-weight: 500;
+}
+
+.sr-item code {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.sr-item a {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.sr-item .hint {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: normal;
+}
+
+.example-section {
+  margin-bottom: 3rem;
+}
+
+.example-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.example-instruction {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.example-instruction kbd {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-family: inherit;
+  font-size: 0.9em;
+}
+
+.demo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Bad button (div) */
+.fake-button {
+  background: var(--wolt-blue);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fake-button:hover {
+  opacity: 0.9;
+}
+
+/* Good button */
+.real-button {
+  background: var(--wolt-blue);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.real-button:hover {
+  opacity: 0.9;
+}
+
+.click-count {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Input styles */
+.input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.input-label input,
+.password-input {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  width: 250px;
+}
+
+.input-label input:focus,
+.password-input:focus {
+  outline: none;
+  border-color: var(--wolt-blue);
+  box-shadow: 0 0 0 3px rgba(0, 194, 232, 0.2);
+}
+
+.labeled-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.labeled-input label {
+  font-weight: 500;
+}
+
+.labeled-input small {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Code comparison */
+.code-comparison {
+  margin-top: 1.5rem;
+}
+
+.code-comparison pre {
+  font-size: 0.8rem;
+}
+
+/* Key takeaways */
+.key-takeaways {
+  background: var(--bg-card);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--wolt-blue);
+}
+
+.key-takeaways h2 {
+  margin-bottom: 1rem;
+}
+
+.key-takeaways ul {
+  list-style: none;
+}
+
+.key-takeaways li {
+  padding: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.key-takeaways li::before {
+  content: "✓";
+  color: var(--good-color);
+  margin-right: 0.75rem;
+  font-weight: bold;
+}

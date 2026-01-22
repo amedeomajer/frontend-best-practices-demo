@@ -1,0 +1,195 @@
+.testing-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.example-section,
+.code-section,
+.why-section {
+  margin-bottom: 3rem;
+}
+
+.example-section h2,
+.code-section h2,
+.why-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.example-description {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+/* Principles section */
+.principles-section {
+  margin-bottom: 3rem;
+}
+
+.principles-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.principle {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+}
+
+.principle h3 {
+  margin-bottom: 1rem;
+}
+
+.principle ul {
+  list-style: none;
+}
+
+.principle li {
+  padding: 0.4rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.good-practice {
+  border-color: var(--good-color);
+}
+
+.good-practice h3 {
+  color: var(--good-color);
+}
+
+.good-practice li::before {
+  content: "✓";
+  color: var(--good-color);
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+.bad-practice {
+  border-color: var(--bad-color);
+}
+
+.bad-practice h3 {
+  color: var(--bad-color);
+}
+
+.bad-practice li::before {
+  content: "✗";
+  color: var(--bad-color);
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+/* Code preview in SplitView */
+.code-preview {
+  text-align: center;
+}
+
+.preview-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.preview-question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bad-color);
+}
+
+.preview-question.good {
+  color: var(--good-color);
+}
+
+/* Code blocks */
+.code-block {
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.code-header {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--bg-secondary);
+  border-bottom: 2px solid;
+}
+
+.code-header.bad {
+  border-color: var(--bad-color);
+  color: var(--bad-color);
+}
+
+.code-header.good {
+  border-color: var(--good-color);
+  color: var(--good-color);
+}
+
+.code-block pre {
+  margin: 0;
+  border-radius: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+/* Why section */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.why-card {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.why-card h3 {
+  margin-bottom: 0.75rem;
+  color: var(--wolt-blue);
+}
+
+.why-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Key takeaways */
+.key-takeaways {
+  background: var(--bg-card);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--wolt-blue);
+}
+
+.key-takeaways h2 {
+  margin-bottom: 1rem;
+}
+
+.key-takeaways ul {
+  list-style: none;
+}
+
+.key-takeaways li {
+  padding: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.key-takeaways li::before {
+  content: "✓";
+  color: var(--good-color);
+  margin-right: 0.75rem;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.main-content {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.page-header .tagline {
+  font-size: 1.125rem;
+  font-style: italic;
+  color: var(--text-secondary);
+}
