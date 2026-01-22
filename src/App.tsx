@@ -32,6 +32,7 @@ function App() {
         </Routes>
       </main>
       <footer className="site-footer">
+        <p>Based on the presentation by Amedeo Majer for Hive Helsinki students visiting Wolt.</p>
         <a
           href="https://github.com/amedeomajer/frontend-best-practices-demo"
           target="_blank"

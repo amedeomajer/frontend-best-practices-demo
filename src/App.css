@@ -25,6 +25,11 @@
   background: var(--bg-card);
 }
 
+.site-footer p {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
 .site-footer a {
   color: var(--text-secondary);
   text-decoration: none;
