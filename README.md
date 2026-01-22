@@ -2,6 +2,10 @@
 
 An interactive React app demonstrating good vs bad frontend practices.
 
+**Live Demo:** https://amedeomajer.github.io/
+
+**Cheatsheet:** [Download PDF](https://amedeomajer.github.io/cheatsheet.pdf)
+
 ## Tech Stack
 
 - **React 19** - UI library
